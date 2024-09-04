@@ -109,7 +109,7 @@ html, body {
 /* Footer */
 footer {
     background-color: #1e3a5f;
-    color: #d5d5d5;
+    color: #385a86;
     padding-top: 2rem;
     text-align: center;
 }
@@ -126,7 +126,7 @@ footer h5 {
 }
 
 footer hr.light {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #385a86;
     width: 50%;
     margin: 10px auto;
 }
