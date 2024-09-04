@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    padding: 0.8rem 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.1em !important;
+    color: #0077b6 !important;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #005f99 !important;
+}
+
+/* Carousel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    filter: brightness(0.9);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-caption h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.carousel-caption .btn {
+    background-color: #0077b6;
+    border: 1px solid #005f99;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #005f99;
+    border: 1px solid #005f99;
+}
+
+/* Jumbotron Section */
+.jumbotron {
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    background: #e0f4ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.jumbotron p {
+    margin: 0;
+}
+
+.jumbotron .btn {
+    margin-top: 10px;
+}
+
+/* General Padding */
+.padding {
+    padding-bottom: 2rem;
+}
+
+.info {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.info .row {
+    display: flex;
+    align-items: center;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a5f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+footer h5 {
+    margin: 0.5rem 0;
+}
+
+footer hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 50%;
+    margin: 10px auto;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 45%;
+    }
+    .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 0.5rem;
+    }
+    .carousel-caption .btn {
+        font-size: 0.9rem;
+        padding: 8px 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    .carousel-caption h3 {
+        font-size: 1rem;
+    }
+    .carousel-caption .btn {
+        font-size: 0.85rem;
+        padding: 4px 8px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+}
